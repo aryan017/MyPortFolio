@@ -7,7 +7,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    font-family: Verdana Tahoma sans-serif;
+    font-family: Verdana ,Tahoma, sans-serif;
 }
 
 .share-button{
@@ -15,6 +15,11 @@ body {
     height: 40px;
     border-radius: 20px;
     background-color: rgb(240,240,240);
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 header {
@@ -28,10 +33,16 @@ header {
 
 .tile{
     width: 100%;
-    height: 56px;
     background-color: rgb(37,37,37);
     border-radius: 17px;
     margin: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(240,240,240);
 }
 
 .container{
@@ -41,4 +52,29 @@ header {
     flex-direction: column;
     align-items: center;
     margin: 10px;
+}
+
+.image-container{
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.image-container img {
+    height: 100%;
+}
+
+.tile-share-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(52,52,52);
+    margin: 8px;
+}
+
+.icon{
+    width: 44px;
+    height: 44px;
+    margin: 4px 8px;
 }
