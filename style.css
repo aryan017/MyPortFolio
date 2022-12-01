@@ -73,6 +73,21 @@ a{
     margin: 8px;
 }
 
+.tile:hover{
+    transition: cubic-bezier(.07,1.41,.82,1.41);
+    transform: scale(1.07);
+}
+
+.share-button svg{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.tile-share-button svg{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
 .icon{
     width: 44px;
     height: 44px;
